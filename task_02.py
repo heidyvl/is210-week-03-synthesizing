@@ -4,6 +4,6 @@
 
 
 import inquisition
-
-REPLACE = inquisition.SPANISH[:18] +' ' + 'Flemish' + inquisition.SPANISH[:418]
-print REPLACE
+INQ = inquisition.SPANISH[:18]
+FLEMISH = INQ + ' ' + 'Flemish' + inquisition.SPANISH[26:418]
+print FLEMISH
